@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>carros no seu tempo</title>
+    <link rel="stylesheet" href="estilo/style.css">
+   <style>
+    body{
+        background-image: linear-gradient(to bottom, rgb(0, 174, 255),rgb(125, 202, 238));
+width: 100vw;
+height: 100%;
+
+    }
+    div{
+        text-align: center;
+    }
+    #imag{
+        width: 400px;
+ height: 350px;
+ border-radius: 40%;
+    }
+    section{
+        background-color: aliceblue;
+        width: 800px;
+        margin: auto;
+        padding: 20px;
+       margin-top: 10px;
+        border-radius: 30px;
+    }
+    footer{
+        display: none;
+    }
+    @media  screen and ( max-width: 768px){
+        section{
+            width: 400px;
+        }
+    }
+   </style>
+
+</head>
+<body onload="carregar()">
+    <header>
+        <h1>Carros que cobina com seu horario atual</h1>
+        <p>Veja alguns carros de luxo e carros bonitos e baratos</p>
+       
+            <nav>
+                <a href="index.html">Home</a>
+                <a  href="horario.html">veja o carro que combina com o seu horario atual</a>
+                <a  href="#">Carros maneiros</a>
+            </nav>
+        
+    </header>
+    <section>
+<div id="img">
+    aqui vai a mensagem
+</div>
+<div id="foto">
+    <img id="imag" src="imagens/manha.png" alt="porccher">
+</div>
+<div id="descricao">
+    
+    <h1>Audi RS 6 Avant</h1>
+    <p>
+        Audi RS 6 Avant é uma das peruas mais lindas do mundo, mas bebe bem
+    </p>
+</div>
+    </section>
+    <footer>
+ola
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
