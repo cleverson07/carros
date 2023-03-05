@@ -8,10 +8,13 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
+
 :root{
     --fonte-padrao:'Josefin Sans', sans-serif;
     --fonte-destaque: carros;
     --fonte-popins:'Poppins', sans-serif;
+  
+
 }
 
 

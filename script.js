@@ -8,13 +8,13 @@ function carregar(){
     img.innerHTML=`Agora são ${hora}horas e ${min}Minutos`
   if (hora > 5 && hora < 12){
     imag.src= 'imagens/manha.png'
-    desc.innerHTML= '<h1>Porsche Cayman GT4 RS</h1> Dobradinha da Porsche: é a vez do 718 Cayman GT4 RS'
+    desc.innerHTML= '<h1>Porsche Cayman GT4 RS</h1> Dobradinha da Porsche: é a vez do 718 Cayman GT4 RS perfeito para passeios do inicio do dia '
 
 
   } else if (hora>=12 && hora <18){
 imag.src= 'imagens/tarde.png'
 document.body.style.backgroundImage = 'linear-gradient(to bottom, rgb(255, 200, 0),rgb(255, 174, 0))'
-desc.innerHTML= '<h1>Porsche 911 GT3</h1> Porsche 911 GT3 ficou na décima posição do ranking dos mais beberrões'
+desc.innerHTML= '<h1>Porsche 911 GT3</h1> Porsche 911 GT3, perfeito para aqueles passeios a tarde com um belo por do sol, mas ficou na décima posição do ranking dos mais beberrões'
 
 
   } else {
